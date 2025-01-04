@@ -1,0 +1,15 @@
+on: workflow_call
+jobs:
+  lint:
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        node-version: ["latest"]
+    steps:
+      - uses: actions/checkout@v4.2.2
+      - uses: actions/setup-node@v4.1.0
+        with:
+          node-version: ${{ matrix.node-version }}
+      - run: npm install
+      - run: npm run format
+      - run: npm run lint
