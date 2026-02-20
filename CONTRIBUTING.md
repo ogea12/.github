@@ -1,4 +1,6 @@
-# 👋 Guide de contribution
+<div align="center">
+  <img src="https://github.com/user-attachments/assets/bca89247-0363-4d45-856f-f400d3495307" />
+</div>
 
 Ce document décrit les pratiques de développement utilisées sur tous les projets de l'organisation. En suivant ces conventions, tu garantis la cohérence et la qualité de nos bases de code.
 
