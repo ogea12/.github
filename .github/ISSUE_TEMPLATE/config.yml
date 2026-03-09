@@ -1,0 +1,5 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Contribution guide
+    url: https://github.com/ogea12/.github/blob/master/CONTRIBUTING.md
+    about: Contributing guidelines and best practices 📖

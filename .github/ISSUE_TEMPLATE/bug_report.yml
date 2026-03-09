@@ -1,0 +1,38 @@
+name: 🐞 Bug report
+description: Something's broken and we want to fix it 🤔
+labels: [bug]
+body:
+  - type: textarea
+    id: bug-description
+    attributes:
+      label: Describe the bug
+      description: Please provide a clear and concise description of the encountered bug.
+      placeholder: Bug description
+    validations:
+      required: true
+  - type: textarea
+    id: expected-behavior
+    attributes:
+      label: Expected behavior
+      description: Please provide a clear and concise description of the behavior you anticipated.
+      placeholder: Expected behavior
+    validations:
+      required: true
+  - type: textarea
+    id: reproduction
+    attributes:
+      label: Reproduction
+      description: Please provide a clear and concise description of how to reproduce the bug.
+      placeholder: Reproduction
+    validations:
+      required: false
+  - type: checkboxes
+    id: validations
+    attributes:
+      label: Validations
+      description: Before submitting the issue, please make sure you do the following.
+      options:
+        - label: Read the [contributing guidelines](https://github.com/ogea12/.github/blob/master/CONTRIBUTING.md).
+          required: true
+        - label: Check that there isn't already an issue that reports the same bug to avoid creating a duplicate.
+          required: true
